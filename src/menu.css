@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.menu {
+  background-color: beige;
+  width: 100%;
+  max-width: 300px;
+  height: 90vh; /* Set a fixed height for the menu */
+  overflow-y: auto; /* Enable vertical scrolling within the menu */
+  border-right: 1px solid #ccc; /* Optional: Add a border to separate it from the rest of the content */
+}
