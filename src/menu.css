@@ -1,19 +1,73 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
 
 .menu {
   background-color: beige;
-  width: 100%;
-  max-width: 300px;
+  width: 300px;
   height: 90vh; /* Set a fixed height for the menu */
   overflow-y: auto; /* Enable vertical scrolling within the menu */
-  border-right: 1px solid #ccc; /* Optional: Add a border to separate it from the rest of the content */
+  border-right: 0px solid #ccc; /* Optional: Add a border to separate it from the rest of the content */
+}
+.main-container{
+  background-color: antiquewhite;
+  border: 3px solid red;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+}
+
+.question{
+  height: 480px;
+  width: 320px;
+  border: 2px solid saddlebrown;
+  padding: 20px;
+  margin: 9px;
+}
+#question-1{
+  background-color: aqua;
+}
+#question-2{
+  background-color: blue;
+}
+#question-3{
+  background-color: rgb(255, 0, 0);
+}
+#question-4{
+  background-color: rgb(229, 255, 0);
+}
+.second-container {
+  display: flex;
+}
+.first-container{
+  display: flex;
+}
+
+@media (min-width: 640px){
+  .first-container{
+    flex-direction: row;
+  }
+}
+@media (max-width: 640px){
+  .first-container{
+    flex-direction: column;
+  }
+}
+@media (min-width: 640px){
+  .second-container{
+    flex-direction: row;
+  }
+}
+@media (max-width: 640px){
+  .second-container{
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 640px){
+  .main-container{
+    flex-direction: row;
+  }
+}
+@media (max-width: 640px){
+  .main-container{
+    flex-direction: column;
+  }
 }
