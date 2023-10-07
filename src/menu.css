@@ -1,11 +1,12 @@
-
 .menu {
-  background-color: beige;
-  width: 300px;
-  height: 90vh; /* Set a fixed height for the menu */
-  overflow-y: auto; /* Enable vertical scrolling within the menu */
-  border-right: 0px solid #ccc; /* Optional: Add a border to separate it from the rest of the content */
+  background-color: rgba(110, 77, 33, 0.74);
+  min-width: 300px;
 }
+.menu-bar{
+  height: 90vh;
+  overflow-y: auto;
+}
+
 .main-container{
   background-color: antiquewhite;
   border: 3px solid red;
@@ -14,10 +15,32 @@
   display: flex;
 }
 
+#table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#table h4{
+  color: black;
+}
+
+
+#table td{
+  border: 1px solid #ddd;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+#table tr:nth-child(even){background-color: #7e6e6e;}
+
+#table tr:hover {background-color: red;}
 .question{
   height: 480px;
   width: 320px;
-  border: 2px solid saddlebrown;
+  border: 1px solid saddlebrown;
   padding: 20px;
   margin: 9px;
 }

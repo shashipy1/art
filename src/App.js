@@ -24,12 +24,13 @@ export default function App() {
 
 
 
-
 // import React from 'react';
 // import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-// import Header from './Header';
+// import Home from './Home';
 // import Menu from './Menu';
 // import Content from './Content';
+// import Contact from './Contact';
+// import Header from './Header';
 
 // export default function App() {
 //   return (
@@ -41,18 +42,21 @@ export default function App() {
 //           height: '100vh',
 //         }}
 //       >
-//         <Header />
+//         <Content />
 //         <div
 //           style={{
 //             display: 'flex',
 //             flex: 1,
-//             backgroundColor: 'maroon', // Set the background color for the right side
 //           }}
 //         >
 //           <Menu />
+//             <div style={{backgroundColor: "maroon", width: '100%'}}>
 //           <Routes>
-//             <Route path="/" element={<Content />} />
+//             <Route path="/" element={<Home />} />
+//             <Route path="/contact" element={<Contact />} />
+//             <Route path="/header" element={<Header />} />
 //           </Routes>
+//             </div>
 //         </div>
 //       </div>
 //     </Router>
