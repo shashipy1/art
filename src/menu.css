@@ -1,9 +1,9 @@
 .menu {
-  background-color: rgba(110, 77, 33, 0.74);
-  min-width: 300px;
+  background-color: rgba(107, 78, 39, 0.74);
+  min-width: 22%;
 }
 .menu-bar{
-  height: 90vh;
+  height: 88vh;
   overflow-y: auto;
 }
 
@@ -34,9 +34,9 @@
  
 }
 
-#table tr:nth-child(even){background-color: #7e6e6e;}
+#table tr:nth-child(even){background-color: #1c5458;}
 
-#table tr:hover {background-color: red;}
+#table tr:hover {background-color: rgb(9, 255, 0);}
 .question{
   height: 480px;
   width: 320px;
