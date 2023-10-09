@@ -49,3 +49,68 @@
     flex: 1;
   }
   
+
+
+
+
+
+
+
+
+  /* Container styles */
+.container {
+  max-width: 400px; /* Adjust the max-width to your preference */
+  margin: 0 auto;
+  padding: 40px; /* Adjust the padding to your preference */
+}
+.input-lable{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Form styles */
+#form {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Label styles */
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Input styles */
+input[type="text"],
+input[type="password"] {
+  width: 20%; /* Make the input fields take up the full width of the container */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Error message styles */
+p {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px; /* Adjust the margin-top to create space between the input and error message */
+  margin-bottom: 10px;
+}
+
+/* Submit button styles */
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px; /* Add space between the last input and the button */
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
